@@ -17,11 +17,11 @@ Download Visual Studio Code to use as your code editor.
 
 Install the following extensions in Visual Studio Code thereafter:
 
-npm by egamma
-Angular Snippets (Version 11) by John Papa
-Code Runner
+npm by egamma<br />
+Angular Snippets (Version 11) by John Papa<br />
+Code Runner<br />
 GitLens - Git supercharged by Eric Amodio
-Visual Studio IntelliCode by Microsoft
+Visual Studio IntelliCode by Microsoft<br />
 
 **Node.js**
 
