@@ -15,7 +15,7 @@ describe('Voucher purchasing flow', () => {
    require('./50-to-someone-else-workflow');
    require('./100-to-someone-else-workflow');
    require('./150-to-someone-else-workflow');
-   require('./other-to-someone-else.js');
+   require('./other-to-someone-else-workflow.js');
    require('./edit-on-confirmation-workflow.js');
 
 })
