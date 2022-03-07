@@ -30,18 +30,18 @@ Download Node.js as your runtime environment. Installing Node.js will allow the 
 **Setup and install Cypress**
 
 Follow the below steps for setup:
---1. Create Empty Project Folder in your desired location
---2. Open the folder in Visual Studio Code:
+1. Create Empty Project Folder in your desired location
+2. Open the folder in Visual Studio Code:
 Visual Studio Code Menu > Navigate to File > Click on Open Folder > Choose the newly created Folder from Open Folder Wizard
---3. Create package.json:
+3. Create package.json:
 In order to create the package.json, open Terminal in Visual Studio Code Menu and type the command below:
 ```bash
 npm init
 ```
 Upon entering npm init in the terminal, it asks for a set of questions. Answer them or hit [Enter] [Enter] until it finishes. 
 Finally, it asks – Is this OK? (yes). Then, hit [Enter].
-Now the file named package.json is automatically created in the root folder of the project.
---4. Install Cypress:
+Now the file named package.json is automatically created in the root folder of the project.<br />
+4. Install Cypress:
 In the root Project Folder (CypressJavascript) > Terminal > type:
 ```bash
 npm install cypress --save-dev
