@@ -225,7 +225,7 @@ describe("Verify $50 To Someone Else Functionality", () => {
     );
   });
 
-  it("Check error message for Message for Message for Recipient field", () => {
+  it("Check error message for Message for Recipient field", () => {
     //repeatedly enter char to exceed character limit. Set delay to 0 to avoid longer typing
     cy.get(giftCardPage.messageForRecipientField).type("a".repeat(320), {
       delay: 0,
