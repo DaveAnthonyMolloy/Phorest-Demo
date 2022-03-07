@@ -13,7 +13,7 @@
 
 **Visual Studio Code**
 
-Download Visual Studio Code (Download) to use as your code editor. 
+Download Visual Studio Code to use as your code editor. 
 
 Install the following extensions in Visual Studio Code thereafter:
 
