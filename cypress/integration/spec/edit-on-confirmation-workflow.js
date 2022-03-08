@@ -33,12 +33,10 @@ describe("Verify Edit on  Summary functionality", () => {
     //assuming previous checkbox selection should be retained
     cy.get(giftCardPage.radio50).should("be.checked");
 
-    //must validate via field parent as field itself does not log email in DOM
     cy.get(giftCardPage.emailField)
       .should("have.attr", "data-email-recipient-email")
       .and("contains", vars.emailAddress1);
 
-    //the same applies to first name and last name fields
     cy.get(giftCardPage.nameDataHost)
       .should("have.attr", "data-name-purchaser-first-name")
       .and("contains", vars.firstName);
