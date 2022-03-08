@@ -89,9 +89,6 @@ describe("Verify $100 To Me Functionality", () => {
       .children("path[fill='#282F3C']")
       .should("exist");
 
-    //add validate card text, it is hidden href
-    //cy.get("g[id='NewCardImage2']").children("g[id='Gift-Card-Text'"]).children('use')
-
     cy.get(giftCardPage.totalCostHeader)
       .eq(0)
       .should("have.text", "Total cost");

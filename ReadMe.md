@@ -55,7 +55,7 @@ Once the above installations are complete, clone the Phorest Demo repository to 
 
 **iFrame** 
 
-To enable testing of iFrames, navigate to the below URL and follow instructions to add iFrame to commands.js:
+To enable testing of iFrames, navigate to the below URL and add the command listed to commands.js within the support folder:
 https://gist.github.com/greg-hoarau/5e6b705ccd24b06a85ba45f226f20558
 
 # Execution:

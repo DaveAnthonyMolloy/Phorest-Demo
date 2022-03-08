@@ -89,9 +89,6 @@ describe("Verify $50 To Someone Else Functionality", () => {
       .children("path[fill='#282F3C']")
       .should("exist");
 
-    //add validate card text, it is hidden href
-    //cy.get("g[id='NewCardImage2']").children("g[id='Gift-Card-Text'"]).children('use')
-
     cy.get(giftCardPage.totalCostHeader)
       .eq(0)
       .should("have.text", "Total cost");
@@ -225,7 +222,7 @@ describe("Verify $50 To Someone Else Functionality", () => {
     );
   });
 
-  it("Check error message for Message for Recipient field", () => {
+  it("Check error message for Recipient field", () => {
     //repeatedly enter char to exceed character limit. Set delay to 0 to avoid longer typing
     cy.get(giftCardPage.messageForRecipientField).type("a".repeat(320), {
       delay: 0,
