@@ -2,11 +2,11 @@
 
 **Phorest Demo**
 
-- Follows Workflow of $50, $100, $150 and other for both Send To Me and Send To Someone Else
+- Follows Workflow of $50, $100, $150 and Other for both Send To Me and Send To Someone Else
 - Validates Gift Card page content
 - Validates Summary page content
 - Validates Payment page content
-- Validates success page content
+- Validates Success page content
 - Validates functionality of Edit button on Summary page
 
 # Installation:
@@ -71,7 +71,7 @@ main.js
 
 **Structure**
 
-Elements are stored within and imported from elements.js from within the support folder. Variables are stored within and imported from variables.js from within the support folder.
+Elements are stored within and imported from elements.js within the support folder. Variables are stored within and imported from variables.js within the support folder. This removes duplication of elements and variables across tests, which makes updates easier. 
 
 **Defects**
 
